@@ -25,3 +25,10 @@ Easily print to hardware devices from an Android device using this light weight 
   new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
                           .printText("Hello world");
 ```
+
+**Print Text and determine size of letter**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+ .printText("Hello world",4);
+
+```

@@ -27,7 +27,6 @@ public class AndroidPrinter {
     public AndroidPrinter printText(String text) {
         switch (printerType) {
             case 0:
-                mobi.printMessage(text);
                 break;
             case 1:
                 mobi.printMessage(text);
