@@ -25,6 +25,7 @@ public class TestAppActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
         Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
-        new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS).printText("Hello world",4);
+        new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                .printText("Hello world",4);
     }
 }

@@ -29,6 +29,42 @@ Easily print to hardware devices from an Android device using this light weight 
 **Print Text and determine size of letter**
 ```
  new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
- .printText("Hello world",4);
+                         .printText("Hello world",4);
+
+```
+
+**Print Bitmap from bitmap or image path**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                         .printBitmap(bitmapPath);
+
+```
+
+**Print Bitmap from bitmap**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                         .printBitmap(bitmap);
+
+```
+
+
+**Print Bitmap from bitmap and determine the speed in printing**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                         .printBitmap(bitmap,speed);
+
+```
+
+
+**Print Bitmap from bitmap and determine the speed in printing**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                         .printBitmap(bitmap,speed);
+
+```
+**Print Bitmap from bitmap and determine the speed in printing with a boolean value whether to print form right to left**
+```
+ new AndroidPrinter(this).Builder(PrinterType.MOBI_WIRE_POS)
+                         .printBitmap(bitmap,speed,boolean);
 
 ```
