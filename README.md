@@ -14,7 +14,7 @@ Easily print to hardware devices from an Android device using this light weight 
   **Step 2: Add the dependency to your dependencies in the build.gradle (Module:App level)**
 
 	dependencies {
-	       compile 'com.github.JamperCin:androidPrinter:1.0.0'
+	       compile 'com.github.JamperCin:androidPrinter:1.0.1'
 	}
   
  
