@@ -1,6 +1,6 @@
 # androidPrinter
 Easily print to hardware devices from an Android device using this light weight library
-[![](https://jitpack.io/v/JamperCin/searchingspinner.svg)](https://jitpack.io/#JamperCin/androidPrinter)
+[![](https://www.jitpack.io/v/JamperCin/androidPrinter.svg)](https://www.jitpack.io/#JamperCin/androidPrinter)
 
 **Step 1: Add this to your root build.gradle(Project level) at the end of repositories:**
 
